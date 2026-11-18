@@ -1,4 +1,5 @@
 .venv/
+node_modules/
 __pycache__/
 *.py[cod]
 .env
@@ -20,4 +21,7 @@ outputs/deepfake_korea_formal_experiment/*
 checkpoints/
 wandb/
 artifacts/review/source_readonly_copy.doc
+!outputs/e12_verified_20261026/
+outputs/e12_verified_20261026/*
+!outputs/e12_verified_20261026/韩国Deepfake_已核验采集表.xlsx
 
